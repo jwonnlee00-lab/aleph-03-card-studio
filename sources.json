@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "images": [
+    {"file": "01-people-4x5.png", "ratio": "4:5", "source": "Instagram @firstpenguin88 (comedian's own account, as stated by the user)", "usage_basis": "Source identified; reuse permission not yet confirmed", "location_metadata": false},
+    {"file": "02-meal-1x1.png", "ratio": "1:1", "source": "User's own food photograph", "usage_basis": "Photographed by the user", "location_metadata": false},
+    {"file": "03-exam-9x16.png", "ratio": "9:16", "source": "User's Q-net My Page screenshot", "usage_basis": "User-supplied crop for the assignment; site content reuse terms not verified", "location_metadata": false}
+  ]
+}
