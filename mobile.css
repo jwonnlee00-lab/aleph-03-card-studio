@@ -9,7 +9,7 @@
   body[data-mobile-view=edit] .previewbox{display:none}
   body[data-mobile-view=preview] main>.panel{display:none}
   body[data-mobile-view=preview] .canvasframe{min-height:0;flex:none;padding:8px}
-  body[data-mobile-view=preview] canvas{width:auto;height:auto;max-width:100%;max-height:calc(100dvh - 245px);object-fit:contain}
+  body[data-mobile-view=preview] canvas{width:auto;height:auto;max-width:100%;max-height:var(--card-max-h,calc(100dvh - 245px));object-fit:contain}
   .mobile-tools{display:block;position:fixed;z-index:10;bottom:0;left:0;right:0;padding:8px 12px calc(8px + env(safe-area-inset-bottom));background:#fff;border-top:1px solid #bcccdc}
   .mobile-tools nav{display:flex;gap:8px}
   .mobile-tools button{flex:1;padding:8px 4px}
