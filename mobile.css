@@ -1,0 +1,19 @@
+.mobile-tools{display:none}
+@media(max-width:780px){
+  body{padding-bottom:calc(104px + env(safe-area-inset-bottom));scroll-padding-bottom:110px}
+  .wrap{min-width:0;margin:12px auto;padding:0 12px}
+  .panel,.previewbox{min-width:0;padding:14px}
+  input,select,textarea{max-width:100%;font-size:16px!important}
+  .inline{flex-wrap:wrap}
+  button,.button{min-height:44px}
+  body[data-mobile-view=edit] .previewbox{display:none}
+  body[data-mobile-view=preview] main>.panel{display:none}
+  body[data-mobile-view=preview] .canvasframe{min-height:0;flex:none;padding:8px}
+  body[data-mobile-view=preview] canvas{width:auto;height:auto;max-width:100%;max-height:calc(100dvh - 245px);object-fit:contain}
+  .mobile-tools{display:block;position:fixed;z-index:10;bottom:0;left:0;right:0;padding:8px 12px calc(8px + env(safe-area-inset-bottom));background:#fff;border-top:1px solid #bcccdc}
+  .mobile-tools nav{display:flex;gap:8px}
+  .mobile-tools button{flex:1;padding:8px 4px}
+  .mobile-tools button[aria-pressed=true]{background:#e1f3ff;border-color:#0878be}
+  #mobileSaveStatus{margin:5px 0 0;font-size:12px;min-height:18px;color:#486581}
+  .mobile-tools.keyboard-open{position:static}
+}

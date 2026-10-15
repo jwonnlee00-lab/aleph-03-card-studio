@@ -1,0 +1,59 @@
+{
+  "environment": {
+    "browser": "155.0.8059.40",
+    "viewport": "390x844; M03 320x568",
+    "mode": "headless desktop mobile viewport; not physical device"
+  },
+  "results": [
+    {
+      "id": "M01",
+      "status": "통과",
+      "observation": "자동 브라우저 검사 완료"
+    },
+    {
+      "id": "M02",
+      "status": "통과",
+      "observation": "자동 브라우저 검사 완료"
+    },
+    {
+      "id": "M03",
+      "status": "실패",
+      "observation": "The expression evaluated to a falsy value:\n\n  assert(await fullCard())\n"
+    },
+    {
+      "id": "M04",
+      "status": "미검증",
+      "observation": "실기기 화면 키보드 없음"
+    },
+    {
+      "id": "M05",
+      "status": "통과",
+      "observation": "자동 브라우저 검사 완료"
+    },
+    {
+      "id": "M06",
+      "status": "통과",
+      "observation": "자동 브라우저 검사 완료"
+    },
+    {
+      "id": "M07",
+      "status": "미검증",
+      "observation": "실기기에서 세 비율 저장·열기 필요"
+    },
+    {
+      "id": "M08",
+      "status": "미검증",
+      "observation": "파일 공유 미구현, 공유 지원 실기기 없음"
+    },
+    {
+      "id": "M09",
+      "status": "실패",
+      "observation": "'function' == 'undefined'"
+    },
+    {
+      "id": "M10",
+      "status": "통과",
+      "observation": "자동 브라우저 검사 완료"
+    }
+  ]
+}
